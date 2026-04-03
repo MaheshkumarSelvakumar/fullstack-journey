@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+header {
+  background-color: #3f1a1f;
+  color: rgb(255, 247, 247);
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.navbar{
+    display: flex;
+    gap: 20px;
+    padding: 15px 30px;
+    justify-content: center;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #d47c00;
+}
+
+.section {
+  padding: 20px 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+#section-1{
+    background-color: #f97070;
+}
+
+#section-2{
+    background-color: #fe5e5e;
+}
+
+#section-3{
+    background-color: #f97070;
+}
+
+h2 {
+  color: #f3d1b5;
+}
+
+li{
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+  background-color: #3f1a1f;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 13px;
+}
+
+body {
+  font-family: 'IBM Plex Serif', serif; 
+  max-width: 900px;
+  margin: 0 auto;
+}
