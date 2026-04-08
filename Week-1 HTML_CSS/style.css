@@ -33,6 +33,11 @@ header {
   text-align: center;
   padding: 56px 24px 32px;
   border-bottom: 4px solid var(--sakura-mid);
+  transition: box-shadow 0.3s ease;
+}
+
+header.scrolled {
+  box-shadow: 0 4px 20px rgba(92, 26, 46, 0.3);
 }
 
 header h1 {
@@ -339,4 +344,11 @@ footer p {
   font-size: 0.78rem;
   color: var(--sakura-mid);
   letter-spacing: 2px;
+}
+
+.skill-card.active {
+  background: var(--sakura-light);
+  border-color: var(--sakura-dark);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-hover);
 }
