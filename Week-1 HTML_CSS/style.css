@@ -270,6 +270,61 @@ header h1 {
   letter-spacing: 1px;
 }
 
+.github-box {
+  max-width: 600px;
+  margin: 0 auto;
+  background: var(--sakura-white);
+  border: 1.5px solid var(--sakura-light);
+  border-radius: var(--radius);
+  padding: 32px;
+  text-align: center;
+  box-shadow: var(--shadow-soft);
+}
+
+.github-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin: 24px 0;
+}
+
+.github-stat {
+  background: var(--sakura-pale);
+  border-radius: var(--radius);
+  padding: 16px;
+}
+
+.github-stat-value {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--sakura-deep);
+}
+
+.github-stat-label {
+  font-size: 0.82rem;
+  color: var(--sakura-dark);
+  margin-top: 4px;
+}
+
+.github-name {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--sakura-deep);
+  margin-bottom: 8px;
+}
+
+.github-bio {
+  font-size: 0.9rem;
+  color: var(--sakura-dark);
+  margin-bottom: 16px;
+  font-style: italic;
+}
+
+.loading-text {
+  color: var(--sakura-mid);
+  font-style: italic;
+}
+
 .contact-box {
   text-align: center;
   max-width: 500px;
